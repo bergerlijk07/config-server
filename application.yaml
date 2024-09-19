@@ -16,9 +16,9 @@ spring:
         baseUrl: http://localhost:9411
 
 management:
-  tracing:
-    sampling:
-      probability: 1.0
+    tracing:
+        sampling:
+            probability: 1.0
 
 eureka:
     instance:
