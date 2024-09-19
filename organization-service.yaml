@@ -6,14 +6,6 @@ spring:
         username: root
         password: Pass2018
 
-
-    jpa:
-        properties:
-            hibernate:
-            dialect: org.hibernate.dialect.MySQL8Dialect
-        hibernate:
-            ddl-auto: update
-
     boot:
         message: "Hello, Department Spring cloud bus demo"
 
