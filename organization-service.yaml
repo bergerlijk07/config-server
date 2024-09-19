@@ -17,6 +17,16 @@ spring:
     boot:
         message: "Hello, Department Spring cloud bus demo"
 
+management:
+    endpoints:
+        web:
+            exposure: 
+                include: "*"
+
+    tracing:
+        sampling:
+            probability: 1.0
+
 eureka:
     instance:
         client:
