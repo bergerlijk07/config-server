@@ -10,9 +10,10 @@ spring:
         message: "Hello, Department Spring cloud bus demo"
 
 management:
-    tracing:
-        sampling:
-            probability: 1.0
+    endpoints:
+        web:
+            exposure: 
+                include: "*"
 
 eureka:
     instance:
