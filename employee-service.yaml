@@ -37,15 +37,15 @@ resilience4j:
     circuitbreaker:
         instances:
             employee-service:
-            registerHealthIndicator: true
-            eventConsumerBufferSize: 10
-            failureRateThreshold: 50
-            minimumNumberOfCalls: 5
-            automaticTransitionFromOpenToHalfOpenEnabled: true
-            waitDurationInOpenState: 5s
-            permittedNumberOfCallsInHalfOpenState: 3
-            slidingWindowSize: 10
-            slidingWindowType: COUNT_BASED
+                registerHealthIndicator: true
+                eventConsumerBufferSize: 10
+                failureRateThreshold: 50
+                minimumNumberOfCalls: 5
+                automaticTransitionFromOpenToHalfOpenEnabled: true
+                waitDurationInOpenState: 5s
+                permittedNumberOfCallsInHalfOpenState: 3
+                slidingWindowSize: 10
+                slidingWindowType: COUNT_BASED
 
 # Retry configurations
 retry:
